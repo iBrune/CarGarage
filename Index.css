@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    background-color: black;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.navigation .search {
+    position: relative;
+    width: 250px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.5);
+    outline: none;
+    border-radius: 4px;
+    backdrop-filter: blur(10px);
+}
+.search::placeholder {
+    color: rgb(255,255,255);
+    font-weight: 400;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+section main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+}
+
+.navigation button {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: red;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+}
+
+.navigation button:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+.Veiculo0,.Veiculo1,.Veiculo2,.Veiculo3,.Veiculo4,.Veiculo5,.Veiculo6,.Veiculo7,.Veiculo8,.Veiculo9 {
+    background-color: rgb(255, 255, 255);
+    width: 270px;
+    height: 300px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10px;
+    text-align: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.Veiculo0 .infov0 {
+    padding-top: 10px;
+    background-color:transparent;
+}
+
+.Veiculo0 .infov0 h3 {
+    background-color:transparent;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+
+.Veiculo1 .infov1 {
+    padding-top: 10px;
+    background-color:transparent;
+}
+
+.Veiculo1 .infov1 h3 {
+    background-color:transparent;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+
+.Veiculo2 .infov2 {
+    padding-top: 10px;
+    background-color:transparent;
+}
+
+.Veiculo2 .infov2 h3 {
+    background-color:transparent;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+
+.Veiculo3 .infov3 {
+    padding-top: 10px;
+    background-color:transparent;
+}
+
+.Veiculo3 .infov3 h3 {
+    background-color:transparent;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+
+.Veiculo4 .infov4 {
+    padding-top: 10px;
+    background-color:transparent;
+}
+
+.Veiculo4 .infov4 h3 {
+    background-color:transparent;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+
+.Veiculo5 .infov5 {
+    padding-top: 10px;
+    background-color:transparent;
+}
+
+.Veiculo5 .infov5 h3 {
+    background-color:transparent;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+
+.Veiculo6 .infov6 {
+    padding-top: 10px;
+    background-color:transparent;
+}
+
+.Veiculo6 .infov6 h3 {
+    background-color:transparent;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+
+.Veiculo7 .infov7 {
+    padding-top: 10px;
+    background-color:transparent;
+}
+
+.Veiculo7 .infov7 h3 {
+    background-color:transparent;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+
+.Veiculo8 .infov8 {
+    padding-top: 10px;
+    background-color:transparent;
+}
+
+.Veiculo8 .infov8 h3 {
+    background-color:transparent;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+
+.Veiculo9 .infov9 {
+    padding-top: 10px;
+    background-color:transparent;
+}
+
+.Veiculo9 .infov9 h3 {
+    background-color:transparent;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+
+
+.Veiculo0 img {
+    border-radius: 5%;
+}
+.Veiculo1 img {
+    border-radius: 5%;
+}
+.Veiculo2 img {
+    border-radius: 5%;
+}
+.Veiculo3 img {
+    border-radius: 5%;
+}
+.Veiculo4 img {
+    border-radius: 5%;
+}
+.Veiculo5 img {
+    border-radius: 5%;
+}
+.Veiculo6 img {
+    border-radius: 5%;
+}
+.Veiculo7 img {
+    border-radius: 5%;
+}
+.Veiculo8 img {
+    border-radius: 5%;
+}
+.Veiculo9 img {
+    border-radius: 5%;
+}
+
+footer p {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 800;
+}
